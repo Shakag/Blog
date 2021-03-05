@@ -125,3 +125,11 @@ document.addEventListener('DOMContentLoaded', () => {
   NexT.boot.refresh();
   NexT.boot.motion();
 });
+
+
+/* 修改样式 shakag */
+document.querySelector(".footer").style.marginTop = -(document.querySelector(".footer").clientHeight+1) +'px'
+
+//右上 章鱼猫 链接图标大小
+document.querySelector("#githubCorner").setAttribute("height",document.querySelector(".header").clientHeight)
+document.querySelector("#githubCorner").setAttribute("width",document.querySelector(".header").clientHeight)

@@ -3,7 +3,7 @@
 .header-inner {
   align-items: center;
   display: flex;
-  padding: 20px 0;
+  padding: 5px 0;
 
   +mobile() {
     display: block;
@@ -23,7 +23,13 @@
   }
 
   .site-title {
-    font-weight: bolder;
+    font-weight: 600;
+    color:#444444;
+    transition: all .3s ease;
+  }
+
+  .site-title:hover {
+    color:#000000;
   }
 }
 
