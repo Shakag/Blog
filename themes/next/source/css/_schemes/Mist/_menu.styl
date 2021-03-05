@@ -2,7 +2,21 @@
 // --------------------------------------------------
 .site-nav {
   font-size:1.3rem;
+  transition: all .3s ease;
   flex-grow: 1;
+
+  li:hover i{
+    width: 100%;
+    left: 0;
+  }
+
+  a{
+    transition: all 3s ease;
+  }
+  
+  a:hover{
+    color:#000000;
+  }
 
   +mobile() {
     padding: 10px 10px 0;
